@@ -22,6 +22,12 @@ PyTorch implementation of SRGAN for single image super-resolution using:
 |---|---|---|
 | image | image | image |
 
+## Results
+
+### SRGAN vs Bicubic Comparison
+
+![SRGAN Comparison](results/srgan_comparison.png)
+
 ## Training
 
 - Dataset: DIV2K
@@ -36,3 +42,5 @@ PyTorch implementation of SRGAN for single image super-resolution using:
 ```bash
 pip install -r requirements.txt
 python train.py
+
+
